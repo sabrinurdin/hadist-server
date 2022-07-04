@@ -1,1 +1,1 @@
-web: build/install/com.example.hadistsever/bin/com.example.hadistserver
+web: build/install/com.example.hadistserver/bin/com.example.hadistserver
