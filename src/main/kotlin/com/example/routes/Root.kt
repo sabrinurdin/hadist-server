@@ -8,7 +8,7 @@ import io.ktor.routing.*
 fun Route.root(){
     get("/"){
         call.respond(
-            message = "Ewlcome to Hadist Api",
+            message = "Welcome to Hadist Api",
             status = HttpStatusCode.OK
         )
     }
