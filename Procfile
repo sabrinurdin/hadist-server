@@ -1,1 +1,1 @@
-web: build/install/com.example.hadistapp/bin/com.example.hadistapp
+web: build/install/com.example.hadistsever/bin/com.example.hadistserver
