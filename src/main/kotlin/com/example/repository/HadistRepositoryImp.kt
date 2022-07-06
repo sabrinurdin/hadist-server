@@ -99,6 +99,13 @@ class HadistRepositoryImp : HadistRepository {
             hadis = " مَنْ أَحَبَّ أَنْ يُمَدَّ لَهُ فِي عُمْرِهِ وَأَنْ يُزَادَ لَهُ فِي رِزْقِهِ فَلْيَبَرَّ وَالِدَيْهِ وَلْيَصِلْ رَحِمَه",
             nomor= "1000",
             riwayat= "Keutamaan Bersedekah"
+        ),
+        Hadist(
+            id_hadis = 8,
+            artinya = "Artinya: Siapa yang suka untuk dipanjangkan umur dan ditambahkan rizki, maka berbaktilah pada orang tua dan sambunglah tali silaturahmi (dengan kerabat).(HR Ahmad).",
+            hadis = " مَنْ أَحَبَّ أَنْ يُمَدَّ لَهُ فِي عُمْرِهِ وَأَنْ يُزَادَ لَهُ فِي رِزْقِهِ فَلْيَبَرَّ وَالِدَيْهِ وَلْيَصِلْ رَحِمَه",
+            nomor= "1000",
+            riwayat= "Keutamaan Salat Tahajjud"
         )
 
 
