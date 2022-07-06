@@ -108,11 +108,11 @@ class HadistRepositoryImp : HadistRepository {
             riwayat= "Keutamaan Salat Tahajjud"
         ),
         Hadist(
-            id_hadis = 9,
+            id_hadis = 10,
             artinya = "Artinya: Siapa yang suka untuk dipanjangkan umur dan ditambahkan rizki, maka berbaktilah pada orang tua dan sambunglah tali silaturahmi (dengan kerabat).(HR Ahmad).",
             hadis = " مَنْ أَحَبَّ أَنْ يُمَدَّ لَهُ فِي عُمْرِهِ وَأَنْ يُزَادَ لَهُ فِي رِزْقِهِ فَلْيَبَرَّ وَالِدَيْهِ وَلْيَصِلْ رَحِمَه",
             nomor= "1000",
-            riwayat= "Keutamaan Salat Dhuha"
+            riwayat= "Larangan Puasa 3 hari setelah lebaran idul adha"
         )
 
 
