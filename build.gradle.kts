@@ -1,6 +1,7 @@
 val ktor_version: String by project
 val kotlin_version: String by project
 val logback_version: String by project
+val kmongoVersion: String by project
 val koin_version: String by project
 
 plugins {
@@ -34,6 +35,10 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+
+    // KMongo
+    implementation("org.litote.kmongo:kmongo-async:$kmongoVersion")
+    implementation("org.litote.kmongo:kmongo-coroutine-serialization:$kmongoVersion")
 
 
     // Koin for Ktor
