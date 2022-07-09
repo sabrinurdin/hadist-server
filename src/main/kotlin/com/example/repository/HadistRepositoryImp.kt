@@ -38,31 +38,31 @@ class HadistRepositoryImp : HadistRepository {
                 ),
             )
         ),
-//        Hadist(
-//            id_hadis = 2,
-//            artinya = "Artinya: Siapa yang suka untuk dipanjangkan umur dan ditambahkan rizki, maka berbaktilah pada orang tua dan sambunglah tali silaturahmi (dengan kerabat).(HR Ahmad).",
-//            hadis = " مَنْ أَحَبَّ أَنْ يُمَدَّ لَهُ فِي عُمْرِهِ وَأَنْ يُزَادَ لَهُ فِي رِزْقِهِ فَلْيَبَرَّ وَالِدَيْهِ وَلْيَصِلْ رَحِمَه",
-//            nomor= "1000",
-//            riwayat= "Berbakti Kepada Orang Saudara",
-//            komentar = listOf(
-//                Comment(
-//                    id_hadis = 1,
-//                    id_forum = 1,
-//                    nama = "Nurdin",
-//                    komentar = "Alhamdulillah,tetap berbakti Allah",
-//                    waktu = "07.00 AM"
-//
-//                ),
-//                Comment(
-//                    id_hadis = 2,
-//                    id_forum = 2,
-//                    nama = "Maryam",
-//                    komentar = "Alhamdulillah,tetap berbakti kepada orang tua",
-//                    waktu = "07.00 AM"
-//
-//                ),
-//            )
-//        ),
+        Hadist(
+            id_hadis = "2",
+            artinya = "Artinya: Siapa yang suka untuk dipanjangkan umur dan ditambahkan rizki, maka berbaktilah pada orang tua dan sambunglah tali silaturahmi (dengan kerabat).(HR Ahmad).",
+            hadis = " مَنْ أَحَبَّ أَنْ يُمَدَّ لَهُ فِي عُمْرِهِ وَأَنْ يُزَادَ لَهُ فِي رِزْقِهِ فَلْيَبَرَّ وَالِدَيْهِ وَلْيَصِلْ رَحِمَه",
+            nomor= "1000",
+            riwayat= "Berbakti Kepada Orang Saudara",
+            komentar = listOf(
+                Comment(
+                    id_hadis = 1,
+                    id_forum = 1,
+                    nama = "Nurdin",
+                    komentar = "Alhamdulillah,tetap berbakti Allah",
+                    waktu = "07.00 AM"
+
+                ),
+                Comment(
+                    id_hadis = 2,
+                    id_forum = 2,
+                    nama = "Maryam",
+                    komentar = "Alhamdulillah,tetap berbakti kepada orang tua",
+                    waktu = "07.00 AM"
+
+                ),
+            )
+        ),
 //        Hadist(
 //            id_hadis = 3,
 //            artinya = "Artinya: Siapa yang suka untuk dipanjangkan umur dan ditambahkan rizki, maka berbaktilah pada orang tua dan sambunglah tali silaturahmi (dengan kerabat).(HR Ahmad).",
