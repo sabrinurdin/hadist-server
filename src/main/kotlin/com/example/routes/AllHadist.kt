@@ -8,9 +8,7 @@ import io.ktor.response.*
 import io.ktor.routing.*
 import org.koin.ktor.ext.inject
 
-fun Route.getAllHadist(
-    db: DatabaseFactory
-){
+fun Route.getAllHadist(){
     val hadistRepository : HadistRepository by inject()
 
     get("/hadist"){
