@@ -14,11 +14,11 @@ fun Route.getAllHadist(
     val hadistRepository : HadistRepository by inject()
 
     get("/hadist"){
-        //val apiResponse = hadistRepository.getAllHadist()
+        val apiResponse = hadistRepository.getAllHadist()
         try {
             val hadist = db.getAllUsers()
             call.respond(
-                message = hadist,
+                message = apiResponse,
                 status = HttpStatusCode.OK
             )
         }catch (e:Exception){
