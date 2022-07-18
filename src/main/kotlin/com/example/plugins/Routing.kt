@@ -14,7 +14,8 @@ fun Application.configureRouting() {
 
     routing {
         root()
-        getAllHadist(databaseFactory)
+        getAllHadist()
+//        getAllHadist(databaseFactory)
         getAllComment(databaseFactory)
         insertHadist(databaseFactory)
         insertComment(databaseFactory)
